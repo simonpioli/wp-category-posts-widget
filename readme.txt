@@ -1,10 +1,10 @@
 === Plugin Name ===
-Contributors: James Lao
+Contributors: James Lao, Simon Pioli
 Donate link: http://jameslao.com/
 Tags: category, posts, widget
 Requires at least: 2.8
-Tested up to: 3.1
-Stable tag: 3.2
+Tested up to: 4.9.9
+Stable tag: 4.0
 
 Adds a widget that shows the most recent posts in a single category.
 

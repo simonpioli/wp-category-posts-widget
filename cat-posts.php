@@ -3,9 +3,9 @@
 Plugin Name: Category Posts Widget
 Plugin URI: http://jameslao.com/2011/03/24/category-posts-widget-3-2/
 Description: Adds a widget that can display posts from a single category.
-Author: James Lao	
-Version: 3.2
-Author URI: http://jameslao.com/
+Author: James Lao, Simon Pioli
+Version: 4.0
+Author URI: http://www.simonpioli.com
 */
 
 // Register thumbnail sizes.
@@ -20,9 +20,9 @@ if (function_exists('add_image_size')) {
 class CategoryPosts extends WP_Widget
 {
 
-    function CategoryPosts()
+    function __construct()
     {
-        parent::WP_Widget(false, $name = 'Category Posts');
+        parent::__construct(false, $name = 'Category Posts');
     }
 
     /**
